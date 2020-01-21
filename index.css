@@ -1,14 +1,17 @@
-body {
+body, html {
   font-family: "News Cycle", sans-serif;
   padding: 0;
   margin: 0;
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
-body .container {
-  position: relative;
-  top: 0;
+body .container, html .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,13 +25,13 @@ body .container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 0px;
+  padding: 0;
   margin: 0;
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
-body .container .box {
+body .container .box, html .container .box {
   font-family: "News Cycle", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -43,28 +46,29 @@ body .container .box {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 200px;
-  width: 500px;
+  height: 25%;
+  width: 100%;
 }
 
-body .container .box img {
+body .container .box img, html .container .box img {
   width: 200px;
 }
 
-body .container .box h1 {
+body .container .box h1, html .container .box h1 {
   font-family: "News Cycle", sans-serif;
   font-size: 50px;
 }
 
-body .container .box h3 {
+body .container .box h3, html .container .box h3 {
+  letter-spacing: 2px;
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 25px;
-  width: 350px;
+  width: 80%;
   text-align: center;
   font-weight: 10;
 }
 
-body .container .box .raz {
+body .container .box .raz, html .container .box .raz {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,11 +85,11 @@ body .container .box .raz {
   position: relative;
 }
 
-body .container .box .raz p {
+body .container .box .raz p, html .container .box .raz p {
   font-family: "Quicksand", sans-serif;
 }
 
-body .container .foot {
+body .container .foot, html .container .foot {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
