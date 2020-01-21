@@ -57,7 +57,7 @@ body .container .box h1 {
 }
 
 body .container .box h3 {
-  font-family: "News Cycle", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 25px;
   width: 500px;
 }
@@ -76,12 +76,15 @@ body .container .box .raz {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-family: "News Cycle", sans-serif;
   position: relative;
 }
 
+body .container .box .raz p {
+  font-family: "Quicksand", sans-serif;
+}
+
 body .container .foot {
-  position: relative;
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,6 +98,6 @@ body .container .foot {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 50px;
+  top: 95%;
 }
 /*# sourceMappingURL=index.css.map */
