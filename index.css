@@ -57,9 +57,11 @@ body .container .box h1 {
 }
 
 body .container .box h3 {
-  font-family: "Quicksand", sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   font-size: 25px;
-  width: 500px;
+  width: 470px;
+  text-align: center;
+  font-weight: 10;
 }
 
 body .container .box .raz {
