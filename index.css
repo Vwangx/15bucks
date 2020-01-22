@@ -57,6 +57,7 @@ body .container .box img, html .container .box img {
 body .container .box h1, html .container .box h1 {
   font-family: "News Cycle", sans-serif;
   font-size: 50px;
+  letter-spacing: 12px;
 }
 
 body .container .box h3, html .container .box h3 {
